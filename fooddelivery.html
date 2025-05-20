@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swiggy Clone</title>
+    <link rel="stylesheet" href="./delivery.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">Swiggy</div>
+      <div class="nav-links">
+        <a href="#">Swiggy Corporate</a>
+        <a href="#">Partner with us</a>
+        <a target="_blank" href="https://play.google.com/store/apps/details?id=in.swiggy.android&hl=en_IN"><button class="app-btn">Get the App</button></a>
+        <a target="_blank" href="https://www.swiggy.com/auth"><button class="sign-in">Sign in</button></a>
+      </div>
+    </div>
+
+    <div class="hero">
+      <h1>Order food & groceries. Discover best restaurants. Swiggy it!</h1>
+      <p>Your favorite food delivered fast at your doorstep.</p>
+      <div class="search-section">
+        <input type="text" placeholder="Enter your delivery location" />
+        <input type="text" placeholder="Search for restaurant, item or more" />
+        <button>Search</button>
+      </div>
+      <div class="services">
+        <div class="service-card">
+          <h3>FOOD DELIVERY</h3>
+          <p>FROM RESTAURANTS</p>
+          <p>UPTO 60% OFF</p>
+          <div class="arrow">View all</div>
+        </div>
+        <div class="service-card">
+          <h3>INSTAMART</h3>
+          <p>INSTANT GROCERY</p>
+          <p>UPTO 60% OFF</p>
+          <div class="arrow">View all</div>
+        </div>
+        <div class="service-card">
+          <h3>DINE OUT</h3>
+          <p>EAT OUT & SAVE MORE</p>
+          <p>UPTO 50% OFF</p>
+          <div class="arrow">View all</div>
+        </div>
+        <div class="service-card">
+          <h3>GENIE</h3>
+          <p>PICK-UP & DROP</p>
+          <div class="arrow">View all</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="food-categories">
+      <h2>Popular Food Items</h2>
+      <div class="food-list">
+        <div class="food-item">
+          <img
+            src="https://b.zmtcdn.com/data/pictures/chains/9/51139/6b176f80af05e21cfb5af3c2ff7c82b4_featured_v2.jpg"
+            alt="Biryani"
+          />
+          <span>Biryani</span>
+        </div>
+        <div class="food-item">
+          <img
+            src="https://asset.kompas.com/crops/dJ6juHNfurURWuXvaqPXge-977c=/53x36:933x623/1200x800/data/photo/2021/10/21/6171492e1ea12.jpg"
+            alt="Burger"
+          />
+          <span>Burger</span>
+        </div>
+        <div class="food-item">
+          <img
+            src="https://content.jdmagicbox.com/v2/comp/bangalore/b9/080pxx80.xx80.220418215053.h1b9/catalogue/mojo-pizza-seshadripuram-bangalore-pizza-outlets-0aqkh2xwnj.jpg"
+            alt="Pizza"
+          />
+          <span>Pizza</span>
+        </div>
+        <div class="food-item">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTISptptNMXJPRUo9UG0OwXm6XSY4bFjrHaiQ&s"
+            alt="Cake"
+          />
+          <span>Cake</span>
+        </div>
+        <div class="food-item">
+          <img
+            src="https://www.elmundoeats.com/wp-content/uploads/2024/02/Crispy-spring-rolls.jpg"
+            alt="Rolls"
+          />
+          <span>Rolls</span>
+        </div>
+        <div class="food-item">
+          <img
+            src="https://static01.nyt.com/images/2024/02/09/multimedia/JMTsak-Sha-Momos-jfpg/JMTsak-Sha-Momos-jfpg-mediumSquareAt3X.jpg"
+            alt="Momo"
+          />
+          <span>Momo</span>
+        </div>
+        <div class="food-item">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJFPP0wyCOQefudUz7vjo9QtLIXPz9BWoY_g&s"
+            alt="Samosa"
+          />
+          <span>Samosa</span>
+        </div>
+        <div class="food-item">
+          <img
+            src="https://images.themodernproper.com/production/posts/PastaPrimavera_10.jpg?w=1200&q=82&auto=format&fit=crop&dm=1719193287&s=7669daa8282feb2437737d045e685766"
+            alt="Pasta"
+          />
+          <span>Pasta</span>
+        </div>
+        <div class="food-item">
+          <img
+            src="https://butfirstchai.com/wp-content/uploads/2024/04/tuna-cutlets-recipe.jpg"
+            alt="Cutlet"
+          />
+          <span>Cutlet</span>
+        </div>
+        <div class="food-item">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_rdCFF8bNpMOBkvEPMDPBNzUuFZ_lj960rw&s"
+            alt="Shake"
+          />
+          <span>Shake</span>
+        </div>
+        <div class="food-item">
+          <img
+            src="https://vegecravings.com/wp-content/uploads/2016/10/Pav-Bhaji-Recipe-Step-By-Step-Instructions-9.jpg"
+            alt="Pav Bhaji"
+          />
+          <span>Pav Bhaji</span>
+        </div>
+        <div class="food-item">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVPvcZIxeA9bZukK18CymY32OqFUTVbkKXgQ&s"
+            alt="Noodles"
+          />
+          <span>Noodles</span>
+        </div>
+        <div class="food-item">
+          <img
+            src="https://media-cdn.tripadvisor.com/media/photo-s/09/44/78/48/diamond-ring-pure-vegetarian.jpg"
+            alt="Pure Veg"
+          />
+          <span>Pure Veg</span>
+        </div>
+        <div class="food-item">
+          <img
+            src="https://vegecravings.com/wp-content/uploads/2024/07/Dosa-Recipe-Step-By-Step-Instructions-scaled.jpg"
+            alt="Dosa"
+          />
+          <span>Dosa</span>
+        </div>
+        <div class="food-item">
+          <img
+            src="https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/idli-recipe.jpg"
+            alt="Idli"
+          />
+          <span>Idli</span>
+        </div>
+        <div class="food-item">
+          <img
+            src="data:image/jpeg;base64,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"
+            alt="Fried Rice"
+          />
+          <span>Fried Rice</span>
+        </div>
+        <div class="food-item">
+          <img
+            src="https://static.toiimg.com/thumb/83740315.cms?width=1200&height=900"
+            alt="Sandwich"
+          />
+          <span>Sandwich</span>
+        </div>
+        <div class="food-item">
+          <img
+            src="https://www.tasteofhome.com/wp-content/uploads/2025/02/Favorite-Mediterranean-Salad_EXPS_TOHcom25_41556_MD_P2_02_05_1b.jpg"
+            alt="Salad"
+          />
+          <span>Salad</span>
+        </div>
+        <div class="food-item">
+          <img
+            src="https://static.toiimg.com/thumb/msid-112019658,width-1280,height-720,imgsize-67604,resizemode-6,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+            alt="Ice Cream"
+          />
+          <span>Ice Cream</span>
+        </div>
+        <div class="food-item">
+          <img
+            src="https://tastesbetterfromscratch.com/wp-content/uploads/2014/09/Baked-Chicken-Wings-3.jpg"
+            alt="Chicken Wings"
+          />
+          <span>Chicken Wings</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="instamart">
+      <h2>Shop groceries on Instamart</h2>
+      <div class="grocery-list">
+        <div class="grocery-item">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0668/7932/4458/collections/Fresh_Vegetable.jpg?v=1703309251"
+            alt="Fresh Vegetables"
+          />
+          <span>Fresh Vegetables</span>
+        </div>
+        <div class="grocery-item">
+          <img
+            src="https://static.vecteezy.com/system/resources/previews/042/729/203/non_2x/a-bountiful-selection-of-fresh-vibrant-fruits-are-scattered-artfully-on-the-pristine-white-background-photo.jpg"
+            alt="Fresh Fruits"
+          />
+          <span>Fresh Fruits</span>
+        </div>
+        <div class="grocery-item">
+          <img
+            src="https://feastofthecenturies.wordpress.com/wp-content/uploads/2018/03/8410390-bread-milk-and-eggs.jpg?w=1200"
+            alt="Dairy, Bread and Eggs"
+          />
+          <span>Dairy, Bread and Eggs</span>
+        </div>
+        <div class="grocery-item">
+          <img
+            src="https://d1sl07a7h3d3fr.cloudfront.net/admin/category/1d7a0695-ec3a-4cf3-8141-9210af3efc5a-blob"
+            alt="Rice, Atta and Dals"
+          />
+          <span>Rice, Atta and Dals</span>
+        </div>
+        <div class="grocery-item">
+          <img
+            src="https://www.shutterstock.com/shutterstock/videos/3645243741/thumb/1.jpg?ip=x480"
+            alt="Masalas and Dry Fruits"
+          />
+          <span>Masalas and Dry Fruits</span>
+        </div>
+        <div class="grocery-item">
+          <img
+            src="https://honeyandspice.in/cdn/shop/files/1_116_11zon.jpg?v=1729593328&width=480"
+            alt="Edible Oils and Ghee"
+          />
+          <span>Edible Oils and Ghee</span>
+        </div>
+        <div class="grocery-item">
+          <img
+            src="https://i.mctimg.com/cdn-cgi/image/w=400,h=400,fit=pad/https://i.mctimg.com/file/a7ea1f2dbd4585ea55c1164e555eb38df64e6615/b20fe220926e8c2d590e014549a96512ccf9457ea805c8526348eb6620c2fd03"
+            alt="Munchies"
+          />
+          <span>Munchies</span>
+        </div>
+      </div>
+    </div>
+    <section class="restaurant-section">
+      <h2>Discover best restaurants on Dineout</h2>
+      <div class="restaurant-container">
+        <div class="restaurant-card">
+          <div class="restaurant-img">
+            <span class="tag">GIRF SPECIAL</span>
+            <img
+              src="https://images.jdmagicbox.com/v2/comp/bangalore/h9/080pxx80.xx80.180316111151.j4h9/catalogue/cafe-noir-b-narayanapura-bangalore-caterers-sca7v.jpg"
+              alt="Cafe Noir"
+            />
+          </div>
+          <div class="restaurant-details">
+            <h3>Cafe Noir</h3>
+            <p>Continental • French</p>
+            <p>₹1700 for two</p>
+            <p>UB City, Vittal Mallya Road, Bangalore</p>
+            <span class="rating">⭐ 4.2</span>
+            <div class="offers">
+              <span class="offer">Flat 40% off on pre-booking</span>
+              <span class="more-offers">+ 7 more</span>
+            </div>
+            <p class="bank-offer">Up to 10% off with bank offers</p>
+          </div>
+        </div>
+
+        <div class="restaurant-card">
+          <div class="restaurant-img">
+            <span class="tag">GIRF SPECIAL</span>
+            <img
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/8b/67/3b/spice-terrace-ambience.jpg?w=900&h=500&s=1"
+              alt="Spice Terrace - JW Marriott"
+            />
+          </div>
+          <div class="restaurant-details">
+            <h3>Spice Terrace - JW Marriott</h3>
+            <p>Mughlai • North Indian</p>
+            <p>₹3900 for two</p>
+            <p>JW Marriott Hotel, Vittal Mallya Road</p>
+            <span class="rating">⭐ 4.3</span>
+            <div class="offers">
+              <span class="offer">Flat 40% off on pre-booking</span>
+              <span class="more-offers">+ 4 more</span>
+            </div>
+            <p class="bank-offer">Up to 10% off with bank offers</p>
+          </div>
+        </div>
+
+        <div class="restaurant-card">
+          <div class="restaurant-img">
+            <span class="tag">GIRF SPECIAL</span>
+            <img
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/56/93/f0/the-merak-brewhouse.jpg?w=900&h=500&s=1"
+              alt="The Merak Brewhouse"
+            />
+          </div>
+          <div class="restaurant-details">
+            <h3>The Merak Brewhouse - JW Marriott</h3>
+            <p>Finger Food • Continental</p>
+            <p>₹2000 for two</p>
+            <p>JW Marriott Hotel, Vittal Mallya Road</p>
+            <span class="rating">⭐ 3.8</span>
+            <div class="offers">
+              <span class="offer">Flat 25% off on pre-booking</span>
+              <span class="more-offers">+ 3 more</span>
+            </div>
+            <p class="bank-offer">Up to 10% off with bank offers</p>
+          </div>
+        </div>
+
+        <!-- New Restaurants Added -->
+        <div class="restaurant-card">
+          <div class="restaurant-img">
+            <span class="tag">GIRF SPECIAL</span>
+            <img
+              src="https://b.zmtcdn.com/data/pictures/7/20797927/a84529694fa4fc337f5491a02d779602.jpg?fit=around|960:500&crop=960:500;*,*"
+              alt="Restaurant Name"
+            />
+          </div>
+          <div class="restaurant-details">
+            <h3>Badmaash</h3>
+            
+            <p>Continental • North Indian</p>
+            <p>₹3500 for two</p>
+            <p>Lulu Global Mall, Binnipete, Bangalore</p>
+            <p>3.9 km</p>
+            <span class="rating">⭐ 4.2</span>
+
+            <div class="offers">
+              <span class="offer">Flat 40% off on pre-booking</span>
+              <span class="more-offers">+ 5 more</span>
+            </div>
+            <p class="bank-offer">Up to 10% off with bank offers</p>
+          </div>
+        </div>
+
+        <div class="restaurant-card">
+          <div class="restaurant-img">
+            <span class="tag">GIRF SPECIAL</span>
+            <img
+              src="https://q-xx.bstatic.com/xdata/images/hotel/max500/461709861.jpg?k=db4a34842390204ebfc71d095ab7db1e2f56201db60b65f17e48db95db8d757d&o="
+              alt="Uno Izakaya - JW Marriott"
+            />
+          </div>
+          <div class="restaurant-details">
+            <h3>Uno Izakaya - JW Marriott</h3>
+            <p>Japanese • Asian</p>
+            <p>₹4000 for two</p>
+            <p>JW Marriott Hotel, Vittal Mallya Road</p>
+            <span class="rating">⭐ 4.3</span>
+            <div class="offers">
+              <span class="offer">Flat 40% off on pre-booking</span>
+              <span class="more-offers">+ 4 more</span>
+            </div>
+            <p class="bank-offer">Up to 10% off with bank offers</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <img
+      class="banner"
+      src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/seo/App_download_banner.png"
+      alt=""
+    />
+    <section class="delivery-cities">
+      <h2>Cities with food delivery</h2>
+      <div class="city-list">
+        <button>Order food online in Bangalore</button>
+        <button>Order food online in Gurgaon</button>
+        <button>Order food online in Hyderabad</button>
+        <button>Order food online in Delhi</button>
+        <button>Order food online in Mumbai</button>
+        <button>Order food online in Pune</button>
+        <button>Order food online in Kolkata</button>
+        <button>Order food online in Chennai</button>
+        <button>Order food online in Ahmedabad</button>
+        <button>Order food online in Chandigarh</button>
+        <button>Order food online in Jaipur</button>
+        <button class="show-more">Show More ⬇</button>
+      </div>
+    </section>
+
+    <section class="delivery-cities">
+      <h2>Cities with grocery delivery</h2>
+      <div class="city-list">
+        <button>Order grocery delivery in Bangalore</button>
+        <button>Order grocery delivery in Gurgaon</button>
+        <button>Order grocery delivery in Hyderabad</button>
+        <button>Order grocery delivery in Delhi</button>
+        <button>Order grocery delivery in Mumbai</button>
+        <button>Order grocery delivery in Pune</button>
+        <button>Order grocery delivery in Kolkata</button>
+        <button>Order grocery delivery in Chennai</button>
+        <button>Order grocery delivery in Ahmedabad</button>
+        <button>Order grocery delivery in Chandigarh</button>
+        <button>Order grocery delivery in Jaipur</button>
+        <button class="show-more">Show More ⬇</button>
+      </div>
+    </section>
+    <footer class="swiggy-footer">
+      <div class="footer-container">
+        <div class="footer-left">
+          <img
+            src="https://media-assets.swiggy.com/portal/testing/seo-home/Group.svg"
+            alt="Swiggy Logo"
+            class="footer-logo"
+          />
+          <p>© 2025 Swiggy Limited</p>
+        </div>
+
+        <div class="footer-columns">
+          <div class="footer-column">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Swiggy Corporate</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Swiggy One</a></li>
+              <li><a href="#">Swiggy Instamart</a></li>
+              <li><a href="#">Swiggy Dineout</a></li>
+              <li><a href="#">Swiggy Genie</a></li>
+              <li><a href="#">Minis</a></li>
+              <li><a href="#">Ping</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Contact us</h3>
+            <ul>
+              <li><a href="#">Help & Support</a></li>
+              <li><a href="#">Partner With Us</a></li>
+              <li><a href="#">Ride With Us</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Available in:</h3>
+            <ul>
+              <li><a href="#">Bangalore</a></li>
+              <li><a href="#">Gurgaon</a></li>
+              <li><a href="#">Hyderabad</a></li>
+              <li><a href="#">Delhi</a></li>
+              <li><a href="#">Mumbai</a></li>
+              <li><a href="#">Pune</a></li>
+            </ul>
+            <select>
+              <option>665 cities</option>
+            </select>
+          </div>
+
+          <div class="footer-column">
+            <h3>Life at Swiggy</h3>
+            <ul>
+              <li><a href="#">Explore With Swiggy</a></li>
+              <li><a href="#">Swiggy News</a></li>
+              <li><a href="#">Snackables</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Legal</h3>
+            <ul>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Cookie Policy</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Social Links</h3>
+            <div class="social-links">
+              <a href="#"
+                ><img
+                  src="https://i.pinimg.com/564x/6b/ab/30/6bab3017350ca04c6fa05569672bd31e.jpg"
+                  alt="LinkedIn"
+              /></a>
+              <a href="#"
+                ><img
+                  src="https://i.pinimg.com/736x/41/e4/57/41e457e8599833299d563976b7d3c59a.jpg"
+                  alt="Instagram"
+              /></a>
+              <a href="#"
+                ><img
+                  src="https://cdn-icons-png.freepik.com/256/2111/2111396.png?semt=ais_hybrid"
+                  alt="Facebook"
+              /></a>
+              <a href="#"
+                ><img
+                  src="https://i.pinimg.com/736x/c6/a4/44/c6a444bfd6df0b35d2cc00f0a5ff2f81.jpg"
+                  alt="Pinterest"
+              /></a>
+              <a href="#"
+                ><img
+                  src="https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg"
+                  alt="Twitter"
+              /></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="download-section">
+          <p>For better experience, download the Swiggy app now</p>
+          <div class="download-buttons">
+            <a target="_blank" href="https://apps.apple.com/in/app/swiggy-food-instamart-dineout/id989540920"
+              ><img
+                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200,h_65/icon-AppStore_lg30tv"
+                alt="App Store"
+            /></a>
+            <a target="_blank" href="https://play.google.com/store/apps/details?id=in.swiggy.android&hl=en_IN"
+              ><img
+                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200,h_65/icon-GooglePlay_1_zixjxl"
+                alt="Google Play"
+            /></a>
+          </div>
+          <div class="cfi" style="display: flex;">
+            <div class="feedback-section">
+            <h3>Customer Feedback</h3>
+            <form class="feedback-form">
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input type="email" name="email" placeholder="Your Email" required />
+              <input type="tel" name="phone" placeholder="Phone Number" />
+              <textarea name="message" placeholder="Your Message" required></textarea>
+              <button type="submit">Submit Feedback</button>
+            </form>
+          </div>
+      
+          <div class="location-section">
+            <h3>Our Location</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.6746209684543!2d77.6930625!3d12.9286222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13d0c47c7ad9%3A0x96b90ab7aae4436b!2sSwiggy%20HO!5e0!3m2!1sen!2sin!4v1743275428319!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            ></iframe>
+          </div></div>
+          
+        </div>
+      </footer>
+  </body>
+</html>
